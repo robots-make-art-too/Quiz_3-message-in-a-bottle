@@ -24,7 +24,7 @@ The latitude is the angular distance of a place north or south of the earth's eq
 ### Longitude
 
 - `East` and `West` from the `Prime Meridian`
-- `0` to -`180`
+- `0` to `180`
 
 The longitude is the angular distance of a place east or west of the meridian at Greenwich, England, or west of the standard meridian of a celestial object. It is usually expressed in degrees and minutes. 
 >
@@ -53,16 +53,16 @@ Every object and the scene (world) in general has their own coordinate space. A 
 
 From the world’s reference point, foo has position (1,2,3) and bar has position (3, 5, 7) since foo’s transformations apply onto bar’s. From foo’s reference point, foo has position (0, 0, 0) and bar has position (2, 3, 4). Often we will want to transform between these reference points and coordinate spaces.
 
------------- foo <) -----> bar
+---------------- foo <) -----> bar
 
------------ (0,0,0) ----> (2,3,4)
+--------------- (0,0,0) ----> (2,3,4)
 
 
-world <)----> foo <) ----> bar
+world <)-----> foo <) ----> bar
 
-(0,0,0) ---> (1,2,3)
+(0,0,0) ------> (1,2,3)
 
------------------------> (3,5,7)
+----------------------------> (3,5,7)
 
 ---
 
@@ -79,7 +79,7 @@ Check me out, zoom and move around!
 
 RELATED:
 
-(actually if you decide you have time check out `The Billion Dolar Code`, the [mostly true story](https://www.sfgate.com/streaming/article/netflix-drama-google-lawsuit-billion-dollar-code-16533314.php) of a some `DIGITAL MEDIA / TECHNICAL ARTISTS / CREATIVE HACKERS` that sued `Google` regarding _who really created google earth_)
+(actually if you decide you have time check out `The Billion Dolar Code`, the [mostly true story](https://www.sfgate.com/streaming/article/netflix-drama-google-lawsuit-billion-dollar-code-16533314.php) of some `DIGITAL MEDIA / TECHNICAL ARTISTS / CREATIVE HACKERS` that sued `Google` regarding _who really created google earth_)
 
 Their startup was called `ART+COM`.. shh it's a link to the trailer:
 [![Trailer](img/trailer.png)](https://youtu.be/iDvPvqImb-4 "ART+COM")
