@@ -39,7 +39,7 @@ The longitude is the angular distance of a place east or west of the meridian at
 
 Might want to think about how you see an object, how the object sees itself, and how the object sees the world...
 
-Just in case you want to think about how items and object might be oriented in 3D space, or if your item is rotating or displaying in positions you aren't intending!
+Just in case you want to think about how items and objects might be oriented in 3D space, or if your item is rotating or displaying in positions you aren't intending!
 
 Every object and the scene (world) in general has their own coordinate space. A parent object’s position, rotation, and scale transformations are applied to its children’s position, rotation, and scale transformations. Consider this scene:
 
@@ -53,16 +53,16 @@ Every object and the scene (world) in general has their own coordinate space. A 
 
 From the world’s reference point, foo has position (1,2,3) and bar has position (3, 5, 7) since foo’s transformations apply onto bar’s. From foo’s reference point, foo has position (0, 0, 0) and bar has position (2, 3, 4). Often we will want to transform between these reference points and coordinate spaces.
 
----------------- foo <) -----> bar
+---------------- foo <) ----->  bar
 
---------------- (0,0,0) ----> (2,3,4)
+--------------- (0,0,0) -----> (2,3,4)
 
 
-world <)-----> foo <) ----> bar
+world <)-------> foo <) -----> bar
 
 (0,0,0) ------> (1,2,3)
 
-----------------------------> (3,5,7)
+world <)--------------------> (3,5,7)
 
 ---
 
