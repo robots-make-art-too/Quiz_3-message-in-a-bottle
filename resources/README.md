@@ -63,7 +63,6 @@ Usually, in Location Based, it's nice to have `AR` content that will always face
 <a-camera gps-camera='simulateLatitude: 51.049; simulateLongitude: -0.723' rotation-reader></a-camera>
 
 <a-text value="This will always face the user." look-at="[gps-camera]" scale="75 75 75" gps-entity-place="latitude: 51.0491; longitude: -0.723;"></a-text>
-</a-camera>
 ```
 
 >
